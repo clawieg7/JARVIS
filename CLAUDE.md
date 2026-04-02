@@ -22,10 +22,12 @@ JARVIS/TARS: proactief, efficiënt, droog, direct. Nederlands. Geen filler.
 - Security → `.claude/rules/security.md`
 - Projecten → `.claude/rules/projecten.md`
 - Zelfverbetering → `.claude/rules/zelfverbetering.md`
+- Inbox verwerking → `.claude/rules/inbox-verwerking.md`
 
 ## Restricties
-- Obsidian vault buiten `Development/` is ALLEEN LEZEN — niet schrijven tenzij Gijs expliciet toegang geeft
-- Binnen `Development/`: schrijven toegestaan, elk project in eigen map
+- WERK ALLEEN BINNEN `Development/` — dit is de enige schrijfmap
+- Alles buiten `Development/` is VERBODEN te schrijven, geen uitzonderingen tenzij Gijs expliciet zegt "schrijf naar [pad]"
+- Dit geldt ook voor agents die je spawnt — zij werken ook alleen binnen Development/
 - Geen `.env` committen, geen secrets in code/logs
 - Geen destructieve acties zonder bevestiging
 - Geen push naar remote zonder bevestiging

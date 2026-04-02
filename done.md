@@ -8,6 +8,12 @@ Nieuwste bovenaan, oud onderaan.
 
 | Tijd | Taak |
 |------|------|
+| 00:40 | Things sync stability fixes: rate limiter, circuit breaker, backoff, mutex — compileert, committed |
+| 00:30 | gijshegeman.nl volledig gebouwd: Next.js 14 + Tailwind, 5 pagina's, dark mode, SEO, build OK |
+| 00:25 | Skool community opzet volledig uitgewerkt: pricing, content, launch plan, 28-dagen kalender |
+| 00:20 | Things sync stability agent gestart: rate limiter, circuit breaker, backoff, mutex |
+| 00:15 | Things sync inbox herschreven met verbeteringen uit Old/ analyse (5 kritieke fixes) |
+| 00:10 | Inbox verwerking regel + project herkenning regel opgeslagen |
 | 23:50 | Website projecten geanalyseerd: 3 repos leeg, inboxen gevuld (49 taken totaal), Gijs genotificeerd |
 | 23:45 | Daily notes automatisering: template + script + LaunchAgent 06:30, eerste note aangemaakt |
 | 23:43 | icalBuddy geïnstalleerd voor calendar in daily notes |

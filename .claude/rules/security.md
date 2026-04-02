@@ -1,5 +1,11 @@
 # Regels: Security
 
+## Werkgebied
+- ALLEEN schrijven binnen: `Development/` map in de Obsidian vault
+- Alles buiten Development/ is VERBODEN — ook voor agents
+- Scripts in `~/Claude/scripts/` en `~/.jarvis/scripts/` zijn uitzondering (infra)
+- Bij twijfel: NIET schrijven, vraag Gijs
+
 ## .env bestanden
 - Vault heeft één centrale `.env` in de root → projecten lezen van daar
 - Elke project-map met een git repo MOET een `.gitignore` hebben met `.env` erin
