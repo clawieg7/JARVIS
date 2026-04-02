@@ -17,6 +17,6 @@ Jarvis — openstaande taken. Done → [[done.md]]
 
 ## Vereist input Gijs
 
-- [!] Daily note: schrijft buiten Development/ — LaunchAgent gestopt. Waar mag het naartoe?
-- [!] Budget tracking aanpak
-- [!] Agency scope definiëren
+- [x] Daily note: LaunchAgent herstart — journal hoort in Gijs/📓 Journal (vault root, niet Development/)
+- [!] Budget tracking aanpak — voorstel: simpele CSV in Development/ of Supabase tabel? Ik adviseer Supabase (schaalbaar, query-able). Zeg "ok supabase" of "ok csv"
+- [!] Agency scope — voorstel: definieer in een dedicated project Development/AK-Agency/ met eigen inbox.md. Zeg "ok" en ik maak het aan

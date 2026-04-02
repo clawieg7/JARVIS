@@ -6,6 +6,17 @@ Nieuwste bovenaan, oud onderaan.
 
 ## 2026-04-03
 
+- 03:00 Things 3 MCP geïnstalleerd (view/create/complete todos, search, projects)
+- 02:50 Playwright MCP geïnstalleerd (headless browser automation, Chromium)
+- 02:45 Apple MCP geïnstalleerd (Calendar, Reminders, Notes, Contacts, Mail, Maps)
+- 02:40 Obsidian MCP geïnstalleerd (search-vault, read/create/edit notes, tags)
+- 02:35 4 MCP install agents + inbox cleanup agent gestart
+- 02:30 GitHub research: 40+ repos gevonden, top 5 MCP servers geselecteerd
+- 02:20 Daily note LaunchAgent gestopt (schrijft buiten Development/)
+- 02:15 Full Disk Access werkt, icalBuddy werkt, calendar syntax gefixt
+- 02:10 Chat logging systeem klaar (chat-logger.sh + chat-context.sh)
+- 02:05 Alle LaunchAgents geaudit en gefixt (4 fixes)
+- 02:00 Alle 6 projecten gecommit
 - 01:50 Morning + Daily triggers handmatig gestart
 - 01:45 LaunchAgents audit: 4 fixes (HOME var, watcher pad bug, telegram herlaad)
 - 01:40 Daily note geverifieerd — werkt, icalBuddy permissions nodig
