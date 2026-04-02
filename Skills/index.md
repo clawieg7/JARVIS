@@ -1,23 +1,36 @@
-# Skills index
+# Skills Index
 
-Herbruikbare procedures voor Jarvis en development workflow.
+Herbruikbare procedures voor Jarvis.
 
-## Regels
+## Meta
 - `_skill-template.md` — template voor nieuwe skills
-- `_skill-herkenning.md` — wanneer en hoe iets een skill wordt
+- `_skill-herkenning.md` — wanneer iets een skill wordt
+- [skill-chaining](skill-chaining.md) — hoe skills aan elkaar koppelen
 
-## Skills
-
-### Remote & Connectiviteit
-| Skill | Doel | Chains naar |
+## Remote & Connectiviteit
+| Skill | Status | Chains naar |
 |---|---|---|
-| [tailscale-connect](tailscale-connect.md) | Mac verbinden met Tailscale netwerk | ssh-setup |
-| ssh-setup | SSH toegang via Tailscale IP | claude-remote |
-| claude-remote | Claude Code remote sessie starten | file-watcher |
+| [tailscale-connect](tailscale-connect.md) | ✓ Voltooid | ssh-setup |
 
-### Automatisering
-| Skill | Doel | Chains naar |
+## Monitoring & Beheer
+| Skill | Status | Chains naar |
 |---|---|---|
-| file-watcher | Development/ bewaken, inbox wijzigingen oppikken | claude-remote |
+| [health-check](health-check.md) | ✓ Voltooid | morning-briefing |
+| [backup-status](backup-status.md) | ✓ Voltooid | weekly-review |
 
-> Skills zonder link zijn nog niet aangemaakt.
+## Data & Sync
+| Skill | Status | Chains naar |
+|---|---|---|
+| [things-sync](things-sync.md) | ✓ Voltooid | morning-briefing, daily-report |
+
+## Dagelijks
+| Skill | Status | Chains naar |
+|---|---|---|
+| [morning-briefing](morning-briefing.md) | ✓ Voltooid | Telegram |
+
+## Chains
+```
+Morning:  cron → things-sync → health-check → morning-briefing → Telegram
+Daily:    cron → things-sync → git-log → daily-report → Telegram
+Weekly:   cron → backup-status → things-sync → health-check → weekly-review → Telegram
+```
