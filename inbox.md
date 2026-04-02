@@ -12,7 +12,13 @@ Jarvis — openstaande taken. Done → [[done.md]]
 ## Blokkades
 
 - [!] Full Disk Access voor Terminal (GUI, moet Gijs doen)
-- [!] ntfy app op iPhone installeren + subscribe topic `jarvis-gijs`
+
+## Gevonden problemen (uit analyse)
+
+- [ ] Remote Control tmux (claude-rc) is DOWN — herstarten
+- [ ] Telegram tmux raakt geblokkeerd op permission prompts — fix: bypassPermissions enforced
+- [ ] 6 projecten hebben uncommitted changes — committen
+- [ ] Jarvis tmux sessie draait met permission prompts — moet --permission-mode bypassPermissions
 
 ## Wacht op tijdstip
 
