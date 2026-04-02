@@ -30,6 +30,7 @@
 
 ## Contactkanalen (prioriteit)
 1. Telegram (@JarvisCode7_Bot)
-2. Terminal (tmux attach -t jarvis)
-3. SSH (ssh jarvis@100.82.231.116)
-4. ntfy.sh (backup)
+2. iMessage (`~/.jarvis/scripts/notify-imessage.sh "bericht"`)
+3. Terminal (tmux attach -t jarvis)
+4. SSH (ssh jarvis@100.82.231.116)
+5. ntfy.sh (backup)

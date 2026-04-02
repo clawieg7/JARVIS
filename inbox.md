@@ -10,11 +10,11 @@ Jarvis — openstaande taken. Done → [[done.md]]
 
 ## Blokkades
 
-- [!] Docker: download https://docker.com/products/docker-desktop/ op Mac
 - [!] Calendar permissions: System Settings → Privacy → Calendars → sta Terminal toe
 - [!] FileVault uitschakelen voor remote recovery (advies: ja)
 - [!] Smart plug voor remote power cycle
 - [!] Vercel login: run `npx vercel login` in terminal (browser auth nodig)
+- [!] reinrensen.nl: welk Vercel account host de live site? → NIET in clawie-s-projects team. Site draait wel op Vercel (bevestigd). Check vercel.com met andere accounts.
 
 ## Open
 
@@ -24,7 +24,4 @@ Jarvis — openstaande taken. Done → [[done.md]]
 
 - [ ] gijshegeman.nl deployen naar Vercel (na Vercel login)
 - [ ] Pre-notificatie 60s voor events (na calendar permissions)
-- [ ] Dashboard bouwen voor Jarvis stats
-- [ ] iMessage als backup communicatiekanaal
-- [ ] Tests schrijven voor Things sync project
 - [ ] Budget tracking Supabase tabel opzetten

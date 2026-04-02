@@ -7,6 +7,11 @@ Herbruikbare procedures voor Jarvis.
 - `_skill-herkenning.md` — wanneer iets een skill wordt
 - [skill-chaining](skill-chaining.md) — hoe skills aan elkaar koppelen
 
+## Communicatie
+| Skill | Status | Chains naar |
+|---|---|---|
+| [imessage-backup](imessage-backup.md) | Voltooid | incident-response, logging |
+
 ## Remote & Connectiviteit
 | Skill | Status | Chains naar |
 |---|---|---|

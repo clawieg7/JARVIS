@@ -1,6 +1,6 @@
 # Jarvis Heartbeat
 
-Laatste update: 2026-04-03 00:57 CET
+Laatste update: 2026-04-03 01:15 CET
 
 ---
 
@@ -29,7 +29,7 @@ Laatste update: 2026-04-03 00:57 CET
 - com.jarvis.daily-note — scheduled
 - com.jarvis.watcher — PID 
 - com.jarvis.vault-backup — scheduled
-- com.jarvis.event-notifier — PID 
+- com.jarvis.event-notifier — scheduled
 
 ## Remote Triggers (cloud)
 

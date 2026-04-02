@@ -9,6 +9,12 @@ Nieuwste bovenaan, oud onderaan.
 - 03:00 Things 3 MCP geïnstalleerd (view/create/complete todos, search, projects)
 - 02:50 Playwright MCP geïnstalleerd (headless browser automation, Chromium)
 - 02:45 Apple MCP geïnstalleerd (Calendar, Reminders, Notes, Contacts, Mail, Maps)
+- 05:10 Website code research: michiel=kwijt, reinrensen=ander Vercel account, Gijs genotificeerd
+- 05:05 Docker geïnstalleerd via Colima (geen Desktop GUI nodig, auto-start boot)
+- 04:50 Things sync: 77 tests (vitest), alle groen, gecommit
+- 04:45 iMessage test naar Gijs verstuurd
+- 04:40 iMessage backup kanaal live (notify-imessage.sh, skill, incident-response bijgewerkt)
+- 04:30 Dashboard: Data/dashboard.md + update-dashboard.sh (cron elke 6 uur)
 - 04:15 GitHub Actions CI/CD workflow aangemaakt (typecheck + secrets scan)
 - 04:10 Backup script verbeterd (error handling + Telegram alerts bij failures)
 - 04:05 Vercel deploy: geblokkeerd op login (browser auth nodig → inbox)
