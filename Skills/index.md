@@ -43,6 +43,7 @@ Herbruikbare procedures voor Jarvis.
 | [incident-response](incident-response.md) | Voltooid | Telegram |
 | [github-research](github-research.md) | Voltooid | search-first |
 | [mcp-management](mcp-management.md) | Voltooid | — |
+| [proactief-oplossen](proactief-oplossen.md) | Voltooid | incident-response, Telegram |
 
 ## Chains
 ```

@@ -9,6 +9,12 @@ Nieuwste bovenaan, oud onderaan.
 - 03:00 Things 3 MCP geïnstalleerd (view/create/complete todos, search, projects)
 - 02:50 Playwright MCP geïnstalleerd (headless browser automation, Chromium)
 - 02:45 Apple MCP geïnstalleerd (Calendar, Reminders, Notes, Contacts, Mail, Maps)
+- 03:25 SSH remote login geactiveerd (ssh jarvis@100.82.231.116)
+- 03:20 Remote Control 24/7 met dedicated script, trust auto-accept, watchdog herstart
+- 03:15 Chat analyse week 1: rapport + 8 gemiste taken in backlog
+- 03:10 Weekly review trigger: 3 goed + 3 beter + chatanalyse + gemiste taken
+- 03:05 Logging regel + herken-regels memory opgeslagen
+- 03:00 ~/Claude/ gemerged naar ~/.jarvis/ — één locatie, alle paden bijgewerkt
 - 02:40 Obsidian MCP geïnstalleerd (search-vault, read/create/edit notes, tags)
 - 02:35 4 MCP install agents + inbox cleanup agent gestart
 - 02:30 GitHub research: 40+ repos gevonden, top 5 MCP servers geselecteerd
