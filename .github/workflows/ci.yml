@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  typecheck:
+    name: TypeScript Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - run: npx tsc --noEmit
+
+  secrets-scan:
+    name: Secrets Scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for .env secrets in committed files
+        run: |
+          echo "Scanning for hardcoded secrets..."
+          FOUND=0
+
+          # Check for common secret patterns in tracked files
+          # Exclude node_modules, .env.example, and binary files
+          PATTERNS=(
+            'ANTHROPIC_API_KEY\s*=\s*sk-'
+            'TELEGRAM_BOT_TOKEN\s*=\s*[0-9]+:'
+            'API_KEY\s*=\s*[A-Za-z0-9_\-]{20,}'
+            'SECRET\s*=\s*[A-Za-z0-9_\-]{20,}'
+            'PASSWORD\s*=\s*[^\s]+'
+            'PRIVATE_KEY\s*=\s*[^\s]+'
+            'DATABASE_URL\s*=\s*postgres'
+            'SUPABASE_SERVICE_ROLE_KEY\s*=\s*ey'
+          )
+
+          for pattern in "${PATTERNS[@]}"; do
+            if git grep -lE "$pattern" -- ':!node_modules' ':!*.example' ':!.github' 2>/dev/null; then
+              echo "::error::Potential secret found matching pattern: $pattern"
+              FOUND=1
+            fi
+          done
+
+          # Check for .env files that should not be committed
+          if git ls-files --cached | grep -E '^\.env$|^\.env\.local$|^\.env\.production'; then
+            echo "::error::.env file found in repository"
+            FOUND=1
+          fi
+
+          if [ "$FOUND" -eq 1 ]; then
+            echo "::error::Secret scan failed. Remove secrets before pushing."
+            exit 1
+          fi
+
+          echo "No secrets detected."
