@@ -4,6 +4,19 @@ Nieuwste bovenaan, oud onderaan.
 
 ---
 
+## 2026-04-03 — ECC Integration
+
+| Tijd | Taak |
+|------|------|
+| 00:00 | ECC repo gecloned naar _ecc-reference/ |
+| 00:05 | Workspace surface audit: 116 skills, 32 hooks, 9 cloud MCPs, 8 LaunchAgents |
+| 00:10 | Security scan (AgentShield): Grade F→ deny rules toegevoegd (12 regels) |
+| 00:15 | Instinct status gecheckt — 0 instincts, hooks observeren |
+| 00:20 | Groei rule + GitHub research skill + MCP management skill aangemaakt |
+| 00:25 | ECC contexts, skills, agents integratie agent gestart |
+
+---
+
 ## 2026-04-02 23:10 — Autonomous sprint
 
 | Tijd | Taak |
