@@ -4,6 +4,18 @@ Nieuwste bovenaan, oud onderaan.
 
 ---
 
+## 2026-04-03 01:00 — ECC + Security + Infra
+
+| Tijd | Taak |
+|------|------|
+| 01:00 | done.md aangemaakt voor alle 6 projecten |
+| 00:55 | `sudo pmset -c displaysleep 5 sleep 0 autorestart 1` — Mac slaapt nooit meer |
+| 00:50 | Sudo NOPASSWD actief — Gijs heeft het ingesteld |
+| 00:45 | Webdev template + rules: stack, ESLint, SEO, deploy checklist |
+| 00:40 | ECC integratie: contexts (bouw/onderzoek/verwerking), 4 skills, 4 agents |
+
+---
+
 ## 2026-04-03 — ECC Integration
 
 | Tijd | Taak |

@@ -3,18 +3,16 @@ Jarvis — openstaande taken. Done → [[done.md]]
 - Hier mogen geen done taken staan
 - Werk door tot alles af en werkt
 - `[!]` vereist Gijs → vraag via Telegram om actie, stel voor en zet klaar
-- Elk project heeft eigen inbox.md in eigen map — Jarvis inbox is alleen voor Jarvis
+- Elk project heeft eigen inbox.md + done.md in eigen map
 
 `[ ]` open · `[!]` vereist Gijs
 
 ---
 
-## Blokkades (vereist Gijs) — Telegram gestuurd
+## Blokkades
 
-- [!] Sudo rechten (op Mac terminal)
-- [!] Sleep uit (op Mac terminal)
-- [!] Full Disk Access voor Terminal
-- [!] ntfy app installeren (uitleg gestuurd)
+- [!] Full Disk Access voor Terminal (GUI, moet Gijs doen)
+- [!] ntfy app op iPhone installeren + subscribe topic `jarvis-gijs`
 
 ## Wacht op tijdstip
 
