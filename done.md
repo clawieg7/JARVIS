@@ -9,6 +9,9 @@ Nieuwste bovenaan, oud onderaan.
 - 03:00 Things 3 MCP geïnstalleerd (view/create/complete todos, search, projects)
 - 02:50 Playwright MCP geïnstalleerd (headless browser automation, Chromium)
 - 02:45 Apple MCP geïnstalleerd (Calendar, Reminders, Notes, Contacts, Mail, Maps)
+- 04:15 GitHub Actions CI/CD workflow aangemaakt (typecheck + secrets scan)
+- 04:10 Backup script verbeterd (error handling + Telegram alerts bij failures)
+- 04:05 Vercel deploy: geblokkeerd op login (browser auth nodig → inbox)
 - 04:00 Memory/context.md volledig bijgewerkt
 - 03:55 CHANGELOG.md, .env.example, Hooks/, Data/media/ aangemaakt
 - 03:50 Capture-alles skill + rule geschreven

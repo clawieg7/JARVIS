@@ -14,19 +14,17 @@ Jarvis — openstaande taken. Done → [[done.md]]
 - [!] Calendar permissions: System Settings → Privacy → Calendars → sta Terminal toe
 - [!] FileVault uitschakelen voor remote recovery (advies: ja)
 - [!] Smart plug voor remote power cycle
+- [!] Vercel login: run `npx vercel login` in terminal (browser auth nodig)
 
 ## Open
 
-- [ ] Memory/context.md updaten — verouderde info opschonen
-- [ ] gijshegeman.nl deployen naar Vercel
-- [ ] GitHub Actions CI/CD opzetten voor Jarvis project
-- [ ] Backup script: git push failures detecteren en melden
 - [ ] Verifieer mail triage classificatie (na eerste week)
 
 ## Backlog
 
+- [ ] gijshegeman.nl deployen naar Vercel (na Vercel login)
 - [ ] Pre-notificatie 60s voor events (na calendar permissions)
-- [ ] Dashboard bouwen voor Jarvis stats (uit ideeën)
+- [ ] Dashboard bouwen voor Jarvis stats
 - [ ] iMessage als backup communicatiekanaal
 - [ ] Tests schrijven voor Things sync project
 - [ ] Budget tracking Supabase tabel opzetten
