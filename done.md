@@ -6,6 +6,8 @@ Nieuwste bovenaan, oud onderaan.
 
 ## 2026-04-03
 
+- 06:50 Instagram scraper skill 10x verbeterd: betrouwbaarheidsniveaus, verificatiestappen, carousel-waarschuwingen, geleerde lessen
+- 06:45 links.md gecorrigeerd: $100 → $50,000 (scrape was fout, screenshots bevestigen juiste bedrag)
 - 03:00 Things 3 MCP geïnstalleerd (view/create/complete todos, search, projects)
 - 02:50 Playwright MCP geïnstalleerd (headless browser automation, Chromium)
 - 02:45 Apple MCP geïnstalleerd (Calendar, Reminders, Notes, Contacts, Mail, Maps)
