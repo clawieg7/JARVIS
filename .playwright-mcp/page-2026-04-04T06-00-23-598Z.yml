@@ -1,0 +1,323 @@
+- generic [ref=e1]:
+  - generic [ref=e8]:
+    - generic [ref=e10]:
+      - link [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img [ref=e16]
+      - generic [ref=e21]:
+        - link [ref=e23] [cursor=pointer]:
+          - /url: /accounts/login/?next=%2Fgithub.awesome%2F&source=desktop_nav
+          - text: Aanmelden
+        - link [ref=e25] [cursor=pointer]:
+          - /url: /accounts/emailsignup/
+          - text: Registreren
+    - main [ref=e26]:
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - link [ref=e36] [cursor=pointer]:
+              - /url: /github.awesome/
+              - img [ref=e37]
+            - generic [ref=e38]:
+              - generic [ref=e39]:
+                - generic [ref=e40]:
+                  - heading [level=2] [ref=e43]:
+                    - generic [ref=e44]: github.awesome
+                  - button [ref=e46] [cursor=pointer]:
+                    - img [ref=e48]
+                - generic [ref=e53]: Github Awesome
+                - generic [ref=e54]:
+                  - link [ref=e56] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e57]:
+                      - generic [ref=e58]: "110"
+                      - text: berichten
+                  - link [ref=e60] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e61]:
+                      - generic [ref=e62]: 38,8K
+                      - text: volgers
+                  - link [ref=e64] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e65]:
+                      - generic [ref=e66]: "23"
+                      - text: volgend
+              - button [ref=e70] [cursor=pointer]:
+                - generic [ref=e71]: "💡 GitHub Daily Discoveries 🎞 Full videos on YouTube: @GithubAwesome 💌 githubawesome@gmail.com"
+          - button [ref=e78] [cursor=pointer]:
+            - generic [ref=e80]: Volgen
+        - tablist [ref=e82]:
+          - link [ref=e84] [cursor=pointer]:
+            - /url: /github.awesome/
+            - img [ref=e86]
+          - link [ref=e97] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e99]
+          - link [ref=e102] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e104]
+        - generic [ref=e108]:
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - link [ref=e114] [cursor=pointer]:
+                - /url: /github.awesome/reel/DWq5ARgEwsB/
+                - img [ref=e117]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e120] [cursor=pointer]:
+                - /url: /github.awesome/reel/DWpgpOVE_Ix/
+                - img [ref=e123]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e126] [cursor=pointer]:
+                - /url: /github.awesome/reel/DWnEtbhkxyh/
+                - img [ref=e129]
+                - generic:
+                  - generic:
+                    - img
+            - generic [ref=e131]:
+              - link [ref=e133] [cursor=pointer]:
+                - /url: /github.awesome/reel/DWjAqcLEzoQ/
+                - img [ref=e136]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e139] [cursor=pointer]:
+                - /url: /github.awesome/reel/DWh6O0dE3FG/
+                - img [ref=e142]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e145] [cursor=pointer]:
+                - /url: /github.awesome/reel/DWfp_h1k1vB/
+                - img [ref=e148]
+                - generic:
+                  - generic:
+                    - img
+            - generic [ref=e150]:
+              - link [ref=e152] [cursor=pointer]:
+                - /url: /github.awesome/reel/DWeRERok0sj/
+                - img [ref=e155]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e158] [cursor=pointer]:
+                - /url: /github.awesome/reel/DWc0EbGEx6w/
+                - img [ref=e161]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e164] [cursor=pointer]:
+                - /url: /github.awesome/reel/DWbQ1hqE1Yd/
+                - img [ref=e167]
+                - generic:
+                  - generic:
+                    - img
+            - generic [ref=e169]:
+              - link [ref=e171] [cursor=pointer]:
+                - /url: /github.awesome/reel/DWXwb3IkwvL/
+                - img [ref=e174]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e177] [cursor=pointer]:
+                - /url: /github.awesome/reel/DWWJLoqk71W/
+                - img [ref=e180]
+                - generic:
+                  - generic:
+                    - img
+              - link [ref=e183] [cursor=pointer]:
+                - /url: /github.awesome/reel/DWVNMyTE_-P/
+                - img [ref=e186]
+                - generic:
+                  - generic:
+                    - img
+          - button [ref=e188] [cursor=pointer]:
+            - generic [ref=e190]: Meer berichten weergeven van github.awesome
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - generic [ref=e194]: Accounts die je misschien leuk vindt
+              - link [ref=e195] [cursor=pointer]:
+                - /url: /github.awesome/related_profiles/
+                - generic [ref=e196]: Alles weergeven
+            - generic [ref=e198]:
+              - list [ref=e200]:
+                - listitem [ref=e201]
+                - listitem [ref=e202]
+                - listitem [ref=e203]:
+                  - generic [ref=e205]:
+                    - button [ref=e206] [cursor=pointer]:
+                      - generic [ref=e207]:
+                        - link [ref=e209]:
+                          - /url: /bytebytego/
+                          - img [ref=e210]
+                        - link [ref=e214]:
+                          - /url: /bytebytego/
+                          - generic [ref=e216]: bytebytego
+                        - generic [ref=e220]: ByteByteGo | Learn System Design
+                    - button [ref=e222] [cursor=pointer]: Volgen
+                - listitem [ref=e223]:
+                  - generic [ref=e225]:
+                    - button [ref=e226] [cursor=pointer]:
+                      - generic [ref=e227]:
+                        - link [ref=e229]:
+                          - /url: /godofprompt/
+                          - img [ref=e230]
+                        - generic [ref=e232]:
+                          - link [ref=e234]:
+                            - /url: /godofprompt/
+                            - generic [ref=e236]: godofprompt
+                          - img [ref=e238]
+                        - generic [ref=e243]: God Of Prompt
+                    - button [ref=e245] [cursor=pointer]: Volgen
+                - listitem [ref=e246]:
+                  - generic [ref=e248]:
+                    - button [ref=e249] [cursor=pointer]:
+                      - generic [ref=e250]:
+                        - link [ref=e252]:
+                          - /url: /theaifield/
+                          - img [ref=e253]
+                        - generic [ref=e255]:
+                          - link [ref=e257]:
+                            - /url: /theaifield/
+                            - generic [ref=e259]: theaifield
+                          - img [ref=e261]
+                        - generic [ref=e266]: AI | Technology
+                    - button [ref=e268] [cursor=pointer]: Volgen
+                - listitem [ref=e269]:
+                  - generic [ref=e271]:
+                    - button [ref=e272] [cursor=pointer]:
+                      - generic [ref=e273]:
+                        - link [ref=e275]:
+                          - /url: /chatgptricks/
+                          - img [ref=e276]
+                        - generic [ref=e278]:
+                          - link [ref=e280]:
+                            - /url: /chatgptricks/
+                            - generic [ref=e282]: chatgptricks
+                          - img [ref=e284]
+                        - generic [ref=e289]: Artificial Intelligence (AI) • ChatGPT
+                    - button [ref=e291] [cursor=pointer]: Volgen
+                - listitem [ref=e292]:
+                  - generic [ref=e294]:
+                    - button [ref=e295] [cursor=pointer]:
+                      - generic [ref=e296]:
+                        - link [ref=e298]:
+                          - /url: /github/
+                          - img [ref=e299]
+                        - generic [ref=e301]:
+                          - link [ref=e303]:
+                            - /url: /github/
+                            - generic [ref=e305]: github
+                          - img [ref=e307]
+                        - generic [ref=e312]: GitHub
+                    - button [ref=e314] [cursor=pointer]: Volgen
+                - listitem [ref=e315]:
+                  - generic [ref=e317]:
+                    - button [ref=e318] [cursor=pointer]:
+                      - generic [ref=e319]:
+                        - link [ref=e321]:
+                          - /url: /aibutsimple/
+                          - img [ref=e322]
+                        - link [ref=e326]:
+                          - /url: /aibutsimple/
+                          - generic [ref=e328]: aibutsimple
+                        - generic [ref=e332]: AI • Machine Learning • Tech
+                    - button [ref=e334] [cursor=pointer]: Volgen
+                - listitem [ref=e335]:
+                  - generic [ref=e337]:
+                    - button [ref=e338] [cursor=pointer]:
+                      - generic [ref=e339]:
+                        - link [ref=e341]:
+                          - /url: /artificialintelligence.co/
+                          - img [ref=e342]
+                        - generic [ref=e344]:
+                          - link [ref=e346]:
+                            - /url: /artificialintelligence.co/
+                            - generic [ref=e348]: artificialintelligence.co
+                          - img [ref=e350]
+                        - generic [ref=e355]: Ai / Artificial Intelligence
+                    - button [ref=e357] [cursor=pointer]: Volgen
+                - listitem [ref=e358]:
+                  - generic [ref=e360]:
+                    - button [ref=e361] [cursor=pointer]:
+                      - generic [ref=e362]:
+                        - link [ref=e364]:
+                          - /url: /claudeai/
+                          - img [ref=e365]
+                        - generic [ref=e367]:
+                          - link [ref=e369]:
+                            - /url: /claudeai/
+                            - generic [ref=e371]: claudeai
+                          - img [ref=e373]
+                        - generic [ref=e378]: Claude by Anthropic
+                    - button [ref=e380] [cursor=pointer]: Volgen
+              - button [ref=e381] [cursor=pointer]
+    - contentinfo [ref=e383]:
+      - generic [ref=e384]:
+        - generic [ref=e386]:
+          - link [ref=e388] [cursor=pointer]:
+            - /url: https://about.meta.com/
+            - generic [ref=e389]: Meta
+          - link [ref=e391] [cursor=pointer]:
+            - /url: https://about.instagram.com/
+            - generic [ref=e392]: Info
+          - link [ref=e394] [cursor=pointer]:
+            - /url: https://about.instagram.com/blog/
+            - generic [ref=e395]: Blog
+          - link [ref=e397] [cursor=pointer]:
+            - /url: https://about.instagram.com/about-us/careers
+            - generic [ref=e398]: Vacatures
+          - link [ref=e400] [cursor=pointer]:
+            - /url: https://help.instagram.com/
+            - generic [ref=e401]: Help
+          - link [ref=e403] [cursor=pointer]:
+            - /url: https://developers.facebook.com/docs/instagram
+            - generic [ref=e404]: API
+          - link [ref=e406] [cursor=pointer]:
+            - /url: /legal/privacy/
+            - generic [ref=e407]: Privacy
+          - link [ref=e409] [cursor=pointer]:
+            - /url: /legal/terms/
+            - generic [ref=e410]: Voorwaarden
+          - link [ref=e412] [cursor=pointer]:
+            - /url: /explore/locations/
+            - generic [ref=e413]: Locaties
+          - link [ref=e415] [cursor=pointer]:
+            - /url: /web/lite/
+            - generic [ref=e416]: Instagram Lite
+          - link [ref=e418] [cursor=pointer]:
+            - /url: https://www.meta.ai/?utm_source=foa_web_footer
+            - generic [ref=e419]: Meta AI
+          - link [ref=e421] [cursor=pointer]:
+            - /url: https://www.threads.com/
+            - generic [ref=e422]: Threads
+          - link [ref=e424] [cursor=pointer]:
+            - /url: https://www.facebook.com/help/instagram/261704639352628
+            - generic [ref=e425]: Contacten uploaden en niet-gebruikers
+          - link [ref=e427] [cursor=pointer]:
+            - /url: /accounts/meta_verified/?entrypoint=web_footer
+            - generic [ref=e428]: Meta Verified
+        - generic [ref=e429]:
+          - generic [ref=e430] [cursor=pointer]:
+            - generic [ref=e431]:
+              - generic [ref=e432]: Nederlands
+              - img [ref=e435]
+            - combobox [ref=e437]
+          - generic [ref=e439]: © 2026 Instagram from Meta
+  - dialog [ref=e599]:
+    - generic [ref=e600]:
+      - button "Sluiten" [active] [ref=e602] [cursor=pointer]:
+        - img "Sluiten" [ref=e604]
+      - generic [ref=e608]:
+        - generic [ref=e609]:
+          - link "Profielfoto van github.awesome" [ref=e611] [cursor=pointer]:
+            - img "Profielfoto van github.awesome" [ref=e612]
+          - generic [ref=e614]:
+            - generic [ref=e615]: Bekijk foto's, video's en meer van github.awesome
+            - generic [ref=e617]: Registreer je en mis nooit meer een bericht van github.awesome.
+        - generic [ref=e618]:
+          - button "Registreren" [ref=e621] [cursor=pointer]
+          - button "Aanmelden" [ref=e624] [cursor=pointer]

@@ -73,7 +73,7 @@ Bij elk inzicht: sla direct op in rules/skills/memory. Meld aan Gijs.
 ### Self-Optimization Loop (uit AutoAgent)
 - **Failure traces**: `Data/traces/*.jsonl` — bij elke fout: wat/waarom/fix/preventie
 - **Optimization log**: `Data/optimization-log.tsv` — elke wijziging bijhouden
-- **Meta-agent instructies**: `self-optimize.md` — hoe de improvement loop werkt
+- **Meta-agent instructies**: `.claude/rules/self-optimize.md` — hoe de improvement loop werkt
 - **Loop**: traces → patronen → één verbetering → meten → keep/revert
 
 ## Tools (MCP)

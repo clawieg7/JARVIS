@@ -10,25 +10,25 @@ Jarvis — openstaande taken. Done → [[done.md]]
 
 ## Blokkades
 
-- [!] Calendar permissions: System Settings → Privacy → Calendars → sta Terminal toe
-- [!] Smart plug voor remote power cycle
-- [!] Vercel login: run `npx vercel login` in terminal (browser auth nodig)
-- [!] reinrensen.nl: welk Vercel account host de live site? → NIET in clawie-s-projects team. Site draait wel op Vercel (bevestigd). Check vercel.com met andere accounts.
+- [x] Smart plug voor remote power cycle → niet doen (Gijs besluit)
+- [!] reinrensen.nl: welk Vercel account host de live site? → NIET in clawie-s-projects team. Site draait wel op Vercel (bevestigd). Check vercel.com met andere accounts. >> akkoord, zet voor me klaar en houd me op de hoogte 
 
 ## Open
 
-- [ ] Verifieer mail triage classificatie (na eerste week)
+- [ ] Feedback: ik zie nu heel veel taken staan die je me allang via je telgram communicatie kanaal had kunnen vragen en zelf door had kunnen werken !
+- [ ] Zet taken zo veel mogelijk voor mij klaar !
+- [ ] Verifieer mail triage classificatie (na eerste week) 
 - [ ] Definieer doel per project — elk project concreet doel geven (einddoel, eerste milestone, revenue target, tijd/week, kill criteria). Projecten: Jarvis Agency, FO-Medical, MedCheck, meme hitster, Things sync, gijshegeman.nl, michieluithetbroek.nl, reinrensen.nl
-- [ ] Beantwoord 5 Claude profielvragen (15 min, kort en eerlijk)
+- [ ] Beantwoord 5 Claude profielvragen (15 min, kort en eerlijk) vraag mij dit via telegram!
 
 ## Vragen aan Gijs
 
-- [!] FO-Medical: nieuw project aanmaken in Obsidian Development/In progress? (6 taken in Things, geen Obsidian project)
-- [!] MedCheck (10 taken) en meme hitster (11 taken): naar In progress verplaatsen of backlog houden?
-- [!] Invoice Escalation Bot: hoort bij Jarvis Agency of apart project?
-- [!] Rommel-taken in Things Claude area (lege entries, bol.com mail okt 2025, Bulk.com link): mag ik opruimen?
-- [!] Handgeschreven to-do's: Things URL scheme werkt niet headless. Wil je ze zelf toevoegen, of mag ik een andere methode proberen?
-- [!] Perplexity API key nodig voor MCP install (~€5/mnd voor trading research). Aanmaken op perplexity.ai/account/api? Waarde: real-time marktdata + deep research met bronnen. Install = 1 commando daarna.
+- [x] FO-Medical: staat al als Financial Independent Medics in Backlog ✓
+- [x] meme hitster → verplaatst naar In progress ✓
+- [x] Invoice Escalation Bot → bij Jarvis Agency ✓
+- [~] Rommel-taken in Things Claude area: mag opruimen, 1 voor 1 voorleggen
+- [x] Handgeschreven to-do's: 19 items via AppleScript naar Things inbox ✓
+- [!] Perplexity API key: Gijs maakt aan op perplexity.ai/account/api
 
 ## Voorstellen Jarvis
 
@@ -73,6 +73,11 @@ Jarvis — openstaande taken. Done → [[done.md]]
 - [ ] **Voorstel: Features/Telegram/index.ts bouwen** — CLAUDE.md bestaat, maar implementatie mist. Bot code voor message routing + conversation memory
 - [ ] **Voorstel: package.json opzetten** — ESLint, Prettier, test scripts ontbreken (vereist door webdev rules)
 - [ ] **Voorstel: Hooks/ directory vullen** — map bestaat maar is leeg. Pre/PostToolUse hooks voor auto-formatting en security checks
+
+### Uit chat-analyse week 2026-04-01 (gemist)
+- [ ] SSH remote login activeren (`sudo systemsetup -setremotelogin on`) — voor remote access Mac Mini
+- [ ] ECC reference op juiste plek zetten — repo locatie opschonen
+- [ ] Website bestaande links onderzoeken en gebruiken ter inspiratie (welk project? → check met Gijs)
 
 ## Backlog
 

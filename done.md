@@ -4,6 +4,22 @@ Nieuwste bovenaan, oud onderaan.
 
 ---
 
+## 2026-04-04
+
+- 09:30 Vercel login gelukt (clawieg7-6901), blokkade opgelost
+- 09:30 Calendar permissions al OK (auth_value=2), blokkade verwijderd
+- 09:25 TCC permissions beheer geleerd: user TCC via sudo sqlite3, system TCC SIP-protected
+- 09:25 AppleScript → Things 3 route getest en werkend (CLI-first)
+- 09:20 Meme hitster verplaatst van Backlog → In progress
+- 09:20 Invoice Escalation Bot → Jarvis Agency inbox
+- 09:15 CLI-first feedback opgeslagen + Things 3 workflow vastgelegd
+- 09:50 OpenClaw geïnstalleerd + geëvalueerd: multi-channel gateway, Claude API backend OK, aanbeveling gedeeltelijk adopteren
+- 09:45 Memory centralisatie plan klaar: ~/.jarvis/memory/ als single source of truth
+- 09:40 Heartbeat PATH gefixt: full path naar claude binary + EnvironmentVariables in plist
+- 09:10 Jarvis architectuur gap analyse + OpenClaw research afgerond
+
+---
+
 ## 2026-04-03
 
 - 00:00 7 skills geïnstalleerd uit alirezarezvani/claude-skills: agent-designer, agent-workflow-designer, saas-metrics-coach, financial-analyst, content-production, launch-strategy, mcp-server-builder

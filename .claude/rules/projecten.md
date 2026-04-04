@@ -35,4 +35,10 @@ dist/
 - Wordt geladen bij `cd` naar projectmap
 
 ## Bij nieuw project aanmaken
-Controleer altijd bovenstaande structuur en maak ontbrekende bestanden aan.
+
+VERPLICHT — deze 3 bestanden ALTIJD aanmaken, geen uitzonderingen:
+1. **inbox.md** — taken & instructies (`[ ]` open, `[x]` af, `[~]` bezig, `[!]` urgent)
+2. **done.md** — afgeronde taken (verwijzing naar inbox.md)
+3. **CLAUDE.md** — project doel, stack, status, commando's
+
+Controleer daarna de rest van bovenstaande structuur en maak ontbrekende bestanden aan waar nodig.
