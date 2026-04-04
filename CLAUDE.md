@@ -57,7 +57,7 @@ Zie `Agents/` voor definities.
 | [architect](Agents/architect.md) | Systeemontwerp, trade-offs, schaalbaarheid | opus |
 | [code-reviewer](Agents/code-reviewer.md) | Kwaliteit, security, onderhoudbaarheid | sonnet |
 | [chief-of-staff](Agents/chief-of-staff.md) | Triage, briefing, communicatie management | opus |
-| [harness-optimizer](Agents/harness-optimizer.md) | Claude Code configuratie optimaliseren | sonnet |
+| [harness-optimizer](Agents/harness-optimizer.md) | Meta-agent: harness zelfverbetering via failure traces | opus |
 
 ## Restricties
 - WERK ALLEEN BINNEN `Development/` — dit is de enige schrijfmap
@@ -69,6 +69,12 @@ Zie `Agents/` voor definities.
 
 ## Zelfverbetering
 Bij elk inzicht: sla direct op in rules/skills/memory. Meld aan Gijs.
+
+### Self-Optimization Loop (uit AutoAgent)
+- **Failure traces**: `Data/traces/*.jsonl` — bij elke fout: wat/waarom/fix/preventie
+- **Optimization log**: `Data/optimization-log.tsv` — elke wijziging bijhouden
+- **Meta-agent instructies**: `self-optimize.md` — hoe de improvement loop werkt
+- **Loop**: traces → patronen → één verbetering → meten → keep/revert
 
 ## Tools (MCP)
 Google Calendar | Gmail | Supabase | Vercel | Figma | Context7 | Hugging Face

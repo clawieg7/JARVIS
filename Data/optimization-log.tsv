@@ -1,0 +1,8 @@
+date	change	file	category	traces_before	traces_after	status
+2026-04-03	failure trace logging toegevoegd (JSONL format, Data/traces/)	.claude/rules/logging.md	missing skill	0	-	keep
+2026-04-03	harness-optimizer geüpgraded naar meta-agent met improvement loop	Agents/harness-optimizer.md	architecture	-	-	keep
+2026-04-03	instagram-scraper 10x verbeterd (betrouwbaarheidsniveaus, verificatie)	Skills/instagram-scraper.md	wrong tool	1	-	keep
+2026-04-03	x-scraper skill aangemaakt (FxTwitter API)	Skills/x-scraper.md	missing skill	1	-	keep
+2026-04-03	zelfverbetering regel uitgebreid met concrete improvement loop	.claude/rules/zelfverbetering.md	architecture	-	-	keep
+2026-04-03	capture regel uitgebreid met ruwe input bewaren	.claude/rules/capture.md	missed capture	-	-	keep
+2026-04-03	self-optimize.md aangemaakt (program.md equivalent)	self-optimize.md	architecture	-	-	keep

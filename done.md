@@ -6,6 +6,25 @@ Nieuwste bovenaan, oud onderaan.
 
 ## 2026-04-03
 
+- 00:00 7 skills geïnstalleerd uit alirezarezvani/claude-skills: agent-designer, agent-workflow-designer, saas-metrics-coach, financial-analyst, content-production, launch-strategy, mcp-server-builder
+- 23:55 Alle 5 agents afgerond: 6 IG links verwerkt, klopping.nl gescand, Perplexity MCP geëvalueerd (key nodig), claude-skills repo geëvalueerd, 3 skills aangemaakt
+- 23:50 6 Instagram links verwerkt: @razvanpbusiness (Claude YouTube $14K/mnd), @leadgenman (5 levels Claude Code), @maxjohnscn (Claude+N8N), @github.awesome (source leak), @rahuljindalai ($5K deal)
+- 23:45 klopping.nl volledig gescand: 3 artikelen, 15+ tools gevonden, 5 voorstellen in inbox (Flow, Plaud, Granola, vendor audit, Shortwave)
+- 23:40 3 missing skills aangemaakt (ssh-setup, daily-report, weekly-review), Claude area gerouteerd (33→8 projecten), Telegram status verstuurd
+- 23:35 Podcast monitor compleet: 3x per dag check (08:00/14:00/20:00), Telegram met topics + key inzichten + fact-check + bronnen + actiepunten, auto deep analyse via claude-rc
+- 23:25 Podcast monitor skill + check-podcasts.sh: detecteert nieuwe episodes, analyseert, fact-checkt, stuurt key inzichten via Telegram. Getest en werkend.
+- 09:00 Podcast structuur: Data/podcasts/ met All-In + AI Report (Klopping/Wietse), 4 episodes geanalyseerd, klopping.nl als leerbron toegevoegd
+- 08:45 "Eerst terugkijken dan oplossen" regel opgeslagen (traces/logs/internet checken voor elk probleem)
+- 08:30 Nightly learn loop: LaunchAgent (00:30), research cyclus (GitHub/X/YouTube/HN/arXiv), thought leaders lijst, nightly-learn.sh script
+- 08:15 self-optimize.md aangemaakt (program.md equivalent), optimization-log.tsv gestart, CLAUDE.md bijgewerkt
+- 08:00 AutoAgent inzichten geïntegreerd: failure trace logging (Data/traces/ + JSONL format), harness-optimizer geüpgraded naar meta-agent, zelfverbetering regel uitgebreid met improvement loop
+- 07:50 X/Twitter scraper skill aangemaakt (FxTwitter API, geen login nodig)
+- 07:45 Kevin Gu AutoAgent article volledig geanalyseerd en opgeslagen (1.8M views, self-optimizing agents)
+- 07:30 Skills/index.md bijgewerkt met 4 nieuwe skills + 3 nieuwe chains (Capture, Improve, Sync)
+- 07:25 🎯 To do's ALL.md sync script live (LaunchAgent elke 15 min, Things structuur deep/bussy)
+- 07:20 Capture regel uitgebreid: ruwe input altijd bewaren in Data/input/raw/
+- 07:15 19 handgeschreven taken gelezen en opgeslagen (Things URL scheme werkt niet headless)
+- 07:00 Alle to-dos verzameld: 1521 Things + 79 Obsidian = 1600 taken
 - 06:50 Instagram scraper skill 10x verbeterd: betrouwbaarheidsniveaus, verificatiestappen, carousel-waarschuwingen, geleerde lessen
 - 06:45 links.md gecorrigeerd: $100 → $50,000 (scrape was fout, screenshots bevestigen juiste bedrag)
 - 03:00 Things 3 MCP geïnstalleerd (view/create/complete todos, search, projects)

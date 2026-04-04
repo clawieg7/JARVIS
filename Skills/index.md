@@ -16,6 +16,7 @@ Herbruikbare procedures voor Jarvis.
 | Skill | Status | Chains naar |
 |---|---|---|
 | [tailscale-connect](tailscale-connect.md) | Voltooid | ssh-setup |
+| [ssh-setup](ssh-setup.md) | Voltooid | remote sessies |
 
 ## Monitoring & Beheer
 | Skill | Status | Chains naar |
@@ -32,6 +33,8 @@ Herbruikbare procedures voor Jarvis.
 | Skill | Status | Chains naar |
 |---|---|---|
 | [morning-briefing](morning-briefing.md) | Voltooid | Telegram |
+| [daily-report](daily-report.md) | Voltooid | Telegram |
+| [weekly-review](weekly-review.md) | Voltooid | Telegram |
 
 ## Ontwikkeling & Kwaliteit
 | Skill | Status | Chains naar |
@@ -40,6 +43,13 @@ Herbruikbare procedures voor Jarvis.
 | [verification-loop](verification-loop.md) | Voltooid | git commit, PR |
 | [de-sloppify](de-sloppify.md) | Voltooid | verification-loop |
 | [strategic-compact](strategic-compact.md) | Voltooid | elke lange sessie |
+
+## Scraping & Input
+| Skill | Status | Chains naar |
+|---|---|---|
+| [instagram-scraper](instagram-scraper.md) | Voltooid | capture-alles, inbox-verwerking |
+| [x-scraper](x-scraper.md) | Voltooid | capture-alles, inbox-verwerking |
+| [capture-alles](capture-alles.md) | Voltooid | inbox-verwerking |
 
 ## Autonoom werk
 | Skill | Status | Chains naar |
@@ -50,6 +60,11 @@ Herbruikbare procedures voor Jarvis.
 | [mcp-management](mcp-management.md) | Voltooid | — |
 | [proactief-oplossen](proactief-oplossen.md) | Voltooid | incident-response, Telegram |
 
+## Sync & Overzicht
+| Skill | Status | Chains naar |
+|---|---|---|
+| [sync-all-todos](sync-all-todos.md) | Voltooid | to-do ALL spiegel, LaunchAgent elke 15 min |
+
 ## Chains
 ```
 Morning:    cron -> things-sync -> health-check -> morning-briefing -> Telegram
@@ -59,4 +74,7 @@ Weekly:     cron -> backup-status -> things-sync -> health-check -> weekly-revie
 Bouw:       search-first -> implementatie -> de-sloppify -> verification-loop -> commit
 Onderzoek:  search-first -> analyse -> samenvatting -> inbox.md
 Sessie:     strategic-compact -> na elke fase-overgang
+Capture:    input -> instagram-scraper/x-scraper -> capture-alles -> inbox-verwerking -> project routing
+Improve:    failure traces -> harness-optimizer (meta-agent) -> regel/skill update -> meten
+Sync:       cron 15min -> sync-all-todos -> 🎯 To do's ALL.md
 ```
