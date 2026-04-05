@@ -11,15 +11,32 @@ Jarvis — openstaande taken. Done → [[done.md]]
 ## Blokkades
 
 - [x] Smart plug voor remote power cycle → niet doen (Gijs besluit)
-- [!] reinrensen.nl: welk Vercel account host de live site? → NIET in clawie-s-projects team. Site draait wel op Vercel (bevestigd). Check vercel.com met andere accounts. >> akkoord, zet voor me klaar en houd me op de hoogte 
+- [!] reinrensen.nl: welk Vercel account host de live site? → NIET in clawie-s-projects team. Site draait wel op Vercel (bevestigd). Check vercel.com met andere accounts. >> akkoord, zet voor me klaar en houd me op de hoogte
 
 ## Open
 
+
+
+- [ ] https://www.instagram.com/reel/DWjv17WDqJ8/?igsh=eWJtcGx1dngwZHpv - laat me dit weten op telegram 
+- [ ] https://remotedesktop.google.com/access 
 - [ ] Feedback: ik zie nu heel veel taken staan die je me allang via je telgram communicatie kanaal had kunnen vragen en zelf door had kunnen werken !
 - [ ] Zet taken zo veel mogelijk voor mij klaar !
 - [ ] Verifieer mail triage classificatie (na eerste week) 
 - [ ] Definieer doel per project — elk project concreet doel geven (einddoel, eerste milestone, revenue target, tijd/week, kill criteria). Projecten: Jarvis Agency, FO-Medical, MedCheck, meme hitster, Things sync, gijshegeman.nl, michieluithetbroek.nl, reinrensen.nl
 - [ ] Beantwoord 5 Claude profielvragen (15 min, kort en eerlijk) vraag mij dit via telegram!
+
+## Podcast actiepunten (2026-04-05)
+
+Uit AI Report episode Anthropic vs Pentagon (2026-03-05):
+- [ ] Test Qwen 3.5 9B lokaal op Mac mini (MLX of Ollama) als Jarvis edge-fallback
+- [ ] Vendor lock-in audit Jarvis: switch-kosten Claude → open model documenteren
+- [ ] Onderzoek Alexander Klopping's terminal email client pattern — feature voor Jarvis?
+
+Uit All-In 2026 Predictions (2026-01-10):
+- [ ] Q4 2025 US GDP 5.4% → portfolio positionering NL/EU vs US herzien (Things 💎 10x account)
+- [ ] Skilled trades shortage NL — content/agency positionering hoek onderzoeken
+- [ ] 2026 predictions framework voor eigen H1 review (juli 2026)
+- [ ] Lees fasterplease "AI and the radiologist apocalypse" (raakt FO-Medical)
 
 ## Vragen aan Gijs
 
@@ -69,10 +86,10 @@ Jarvis — openstaande taken. Done → [[done.md]]
 - [ ] **Voorstel: Shortwave evalueren** — AI email drafts in eigen schrijfstijl. Vergelijk met Gmail MCP.
 
 ### Ontbrekende componenten (uit analyse)
-- [ ] **Voorstel: 3 ontbrekende skills maken** — ssh-setup.md, daily-report.md, weekly-review.md worden gerefereerd door skill chains maar bestaan niet
-- [ ] **Voorstel: Features/Telegram/index.ts bouwen** — CLAUDE.md bestaat, maar implementatie mist. Bot code voor message routing + conversation memory
-- [ ] **Voorstel: package.json opzetten** — ESLint, Prettier, test scripts ontbreken (vereist door webdev rules)
-- [ ] **Voorstel: Hooks/ directory vullen** — map bestaat maar is leeg. Pre/PostToolUse hooks voor auto-formatting en security checks
+- [x] ~~Voorstel: 3 ontbrekende skills maken~~ — skills bestaan al (done.md 2026-04-03 23:40)
+- [x] ~~Voorstel: Features/Telegram/index.ts bouwen~~ — Telegram draait nu via native Claude plugin, niet via custom code
+- [x] ~~Voorstel: package.json opzetten~~ — achterhaald, Jarvis is geen npm project meer
+- [x] ~~Voorstel: Hooks/ directory vullen~~ — hooks draaien via ECC hook systeem in ~/.claude/
 
 ### Uit chat-analyse week 2026-04-01 (gemist)
 - [ ] SSH remote login activeren (`sudo systemsetup -setremotelogin on`) — voor remote access Mac Mini

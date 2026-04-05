@@ -4,6 +4,22 @@ Nieuwste bovenaan, oud onderaan.
 
 ---
 
+## 2026-04-05
+
+- 15:45 Inbox cleanup: 4 achterhaalde "ontbrekende componenten" voorstellen naar done (skills bestaan, Telegram via plugin, hooks via ECC)
+- 15:45 Vastgoed Beleggingen duplicate verwijderd uit Development/ (stond al correct in Projects/💰Wealthset/)
+- 15:30 Telegram bot herstart (dubbele workers opgeruimd)
+- 09:13 Rules directory 73% gereduceerd (10 ongebruikte taaldirectories verwijderd, 244KB bespaard)
+- 09:00 Podcast organisatie regel geconfigureerd
+- 08:44 Home directory cleanup (344MB freed, installers verwijderd)
+- 08:20 Podcast-check LaunchAgent gefixt (iCloud → lokaal filesystem)
+- 08:19 TMUX_BIN fix + safe-reboot exit code + nightly-autoresearch timeout
+- 08:11 Watchdog script variable reference bug gefixt
+- 08:03 Claude Code Remote Control omgeving bevestigd werkend
+- 07:07 Telegram bot stuck session gekilld + clean herstart
+
+---
+
 ## 2026-04-04
 
 - 09:30 Vercel login gelukt (clawieg7-6901), blokkade opgelost

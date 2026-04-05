@@ -221,7 +221,7 @@ yt-dlp --skip-download --write-auto-sub --sub-lang en,nl --convert-subs srt "VID
 ### Thought Leaders om te volgen
 | Platform | Accounts | Focus |
 |---|---|---|
-| X/Twitter | @karpathy, @AndrewYNg, @kevingu, @alexalbert__, @AnthropicAI | AI agents, training, tools |
+| X/Twitter | @karpathy, @AndrewYNg, @kevinrgu, @alexalbert__, @AnthropicAI | AI agents, training, tools |
 | X/Twitter | @swaborern, @mcaborern, @aimasterclass | Claude Code specifiek |
 | GitHub | anthropics, kevinrgu, affaan-m, jxnl | Claude tools, ECC, agents |
 | YouTube | Andrej Karpathy, Two Minute Papers, AI Explained | Fundamentals, nieuwe papers |
